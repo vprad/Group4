@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan("com.*")
 public class OnlineExaminationSystemApplication {
 
-	public static void main(String[] args) {
+	public static String main(String[] args) {
 		SpringApplication.run(OnlineExaminationSystemApplication.class, args);
 		System.out.println("Hello");
 	}
